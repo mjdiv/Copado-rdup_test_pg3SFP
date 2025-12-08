@@ -14,4 +14,11 @@
         <shortDescription>Dummy_Test_Label_1</shortDescription>
         <value>Dummy test value</value>
     </labels>
+    <labels>
+        <fullName>Env_Var_Test_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Env Var Test Label</shortDescription>
+        <value>{!Environment.test_env_var}</value>
+    </labels>
 </CustomLabels>
