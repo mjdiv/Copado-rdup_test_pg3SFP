@@ -3,7 +3,7 @@
     <label>HariCusompermissionset</label>
     <hasActivationRequired>false</hasActivationRequired>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.haricustomfield__c</field>
         <readable>true</readable>
     </fieldPermissions>
