@@ -31,6 +31,31 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <screens>
+        <description>this is my second flow version</description>
+        <name>second_display_version</name>
+        <label>second_display_version</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>second_display_text</name>
+            <fieldText>&lt;p&gt;Hi this is my second version&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
         <name>Welcome_screen</name>
         <label>Welcome screen</label>
         <locationX>0</locationX>
@@ -38,6 +63,9 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>second_display_version</targetReference>
+        </connector>
         <fields>
             <name>Chandu_display_text</name>
             <fieldText>&lt;p&gt;Hello! This is my first simple Salesforce Flow.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
